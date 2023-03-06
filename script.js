@@ -37,13 +37,13 @@ function sumTag() {
     box.innerHTML = "<div class=resultado><h2>The sum result is " + result + "</h2></div>"
 
 }
-// function sumQuery() {
-//     let numbers = document.getElementsByTagName(".numberQuery");
-//     let box = document.getElementById("result");
+function sumQuery(){
+    let numbers = document.querySelectorAll(".numberQuery");
+    let buttons = document.getElementsByTagName("button");
 
+    let box = document.getElementById("result");
 
-//     let result = parseInt(numbers[0].value) + parseInt(numbers[1].value);
-//     alert(result)
-//     box.innerHTML = "<div class=resultado><h3>The sum result is " + result + "</h3></div>"
+    let result = parseInt(numbers[0].value)+parseInt(numbers[1].value);
+    box.innerHTML = "<h1>The sum result is "+result+"</h1>";
 
-// }
+}
