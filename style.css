@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 950px;
+    margin: auto;
+    background-color: #003049;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    padding: 8px;
+    font-size: 20px;
+}
+
+input:hover{
+    background-color: #e0e0e0;
+    padding: 8px;
+    font-size: 20px;
+    border-color: #cc2123;
+}
+
+.forms{
+    width: 350px;
+    color: #f1faee;
+    display: flex;
+    flex-direction: column;
+}
+
+.forms h3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.forms2{
+    padding-top: 50px;
+    color: #f1faee;
+    display: flex;
+    flex-direction: column;
+}
+
+.forms2 h3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.forms3{
+    padding-top: 50px;
+    color: #f1faee;
+    display: flex;
+    flex-direction: column;
+}
+
+.forms3 h3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* .forms4{
+    padding-top: 50px;
+    color: #f1faee;
+    display: flex;
+    flex-direction: column;
+}
+
+.forms4 h3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+} */
+
+.titleH1{
+    width: 100%;
+    color: #f1faee;
+    display: flex;
+    justify-content: center;
+}
+
+.titleH1 h1{
+    background-color: #003049;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 40px;
+    font-size: 14px;
+    color: #f1faee;
+    background-color: #e5383b;
+}
+
+button:hover{
+    height: 40px;
+    color: #f1faee;
+    transition: 0.3s;
+    background-color: #cc2123;
+}
+
+.resultado{
+    width: 100%;
+    background-color: #e5383b;
+    height: 60px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.resultado h2{
+    background-color: #e5383b;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
